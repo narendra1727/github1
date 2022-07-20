@@ -1,0 +1,160 @@
+.mainbody{
+    background-color: lightgray;
+    height:100vh;
+}
+
+
+.head1{
+    display:flex;
+    flex-direction: row;
+}
+
+.git{
+    
+    padding-left: 42vw;
+}
+.container-fluid{
+    height: 15vh;
+    max-width:100vw;
+    background-color: rgb(2, 2, 39);
+    color: white;
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+}
+
+.largeone  {
+    height:75vh;
+    width:22vw;
+    background-color: black;
+    border-radius: 3vh;
+    margin-left:5vw
+}
+
+.leftone{
+    display: flex;
+    flex-direction: column;
+}
+
+.search{
+    height:8vh;
+    width:45vw;
+    background-color: black;
+    padding-left:2vw;
+    border-radius: 2vh;
+    padding-top: 2vh;
+    color: white;
+    margin-left: 12vw;
+    font-size: 3vh;   
+}
+
+.box1{
+    background-color: black;
+    height:22vh;
+    width: 15vw;
+    margin-top: 10vh;
+    margin-left:6vw;
+    border-radius: 3vh;
+}
+
+.threeboxes{
+    display:flex;
+    flex-direction: row;
+}
+
+.bottom{
+    height:24vh;
+    width:57vw;
+    background-color: black;
+    margin-top: 11vh;
+    margin-left:6vw;
+    border-radius: 3vh;
+}
+
+@media only  screen and (max-width:700px){
+    .mainbody{
+        background-color: lightgrey;
+        height:100%;
+    }
+    
+    .container-fluid{
+        height: 15vh;
+        max-width:100vw;
+        background-color: rgb(2, 2, 39);
+        color: white;
+        text-align: center;
+        padding-top: 5vh;
+    }
+
+    .head1{
+        display:flex;
+        
+    }
+    
+    .git{
+        
+        padding-left: 35vw;
+    }
+
+    .body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .largeone  {
+        height:40vh;
+        width:40vw;
+        background-color: black;
+        border-radius: 3vh;
+        margin-left:3vw;
+        /* justify-items: center; */
+    }
+
+    .search{
+        height:10vh;
+        width:60vw;
+        background-color: black;
+        padding-left:4vw;
+        border-radius: 2vh;
+        padding-top: 3vh;
+        color: white;
+        margin-left: 15vw;
+        margin-top: 5vh;
+        display: flex;
+        justify-items: center;
+        
+    }
+
+    .threeboxes{
+        display:flex;
+        flex-direction: column;
+        margin-left: 5vw;
+    }
+
+    .box1{
+        background-color: black;
+        height:30vh;
+        width: 12vw;
+        margin-top: 10vh;
+        border-radius: 1vh;
+        margin-left:35vw;
+    }
+
+    .bottom{
+        height:30vh;
+        width:75vw;
+        background-color: black;
+        margin-top: 10vh;
+        /* margin-left:3vw; */
+        border-radius: 3vh;
+        display: flex;
+        margin-right: 8vw ;
+    }
+
+
+}
